@@ -12,7 +12,7 @@ export const Login: React.FC<LoginProps> = ({ onLogin }) => {
     event.preventDefault();
     onLogin(username, password);
   };
-
+  console.log(onLogin);
   return (
     <form
       className="space-y-4"
